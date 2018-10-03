@@ -80,7 +80,7 @@ class Http {
                 
             }
             
-            }.resume()
+        }.resume()
     }
     
 }

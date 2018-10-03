@@ -12,7 +12,7 @@ class Alert: UIAlertController {
     
     static func OKAction(in vc: UIViewController, title: String, message: String) {
         
-        let uiAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        let uiAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         
         uiAlert.addAction(UIAlertAction(title: "حسنا", style: .default, handler: { (action: UIAlertAction!) in
             print("Handle Ok logic here")
@@ -23,7 +23,7 @@ class Alert: UIAlertController {
     
     static func OKAndCancelAction(in vc: UIViewController, titlefor OKAction: String, title: String, message: String) {
         
-        let uiAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        let uiAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         
         uiAlert.addAction(UIAlertAction(title: OKAction, style: .default, handler: { (action: UIAlertAction!) in
             print("Handle Ok logic here")
