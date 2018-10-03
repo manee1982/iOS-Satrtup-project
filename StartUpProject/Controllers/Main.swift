@@ -13,7 +13,7 @@ struct Res: Decodable {
     let discription: String
 }
 
-class ViewController: UIViewController {
+class Main: UIViewController {
     
     
     override func viewDidLoad() {
